@@ -8,7 +8,7 @@ cd ffmpeg
     --disable-ffprobe \
     --disable-doc \
     --disable-decoders \
-    --enable-decoder=ass,bmp,jpeg2000,jpegls,mjpeg,mjpegb,png,srt,ssa,webp,webvtt \
+    --enable-decoder=aac,ass,bmp,flac,h264,hevc,jpeg2000,jpegls,mjpeg,mjpegb,png,srt,ssa,webp,webvtt \
     --disable-encoders \
     --enable-encoder=mjpeg,movtext \
     --disable-hwaccels \
