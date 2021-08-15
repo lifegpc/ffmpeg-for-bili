@@ -15,7 +15,7 @@ cd ffmpeg
     --disable-demuxers \
     --enable-demuxer=ass,ffmetadata,flac,hls,image_bmp_pipe,image_jpeg_pipe,image_jpegls_pipe,image_png_pipe,image_webp_pipe,matroska,mjpeg,mjepg_2000,mov,mpegts,srt,webvtt \
     --disable-muxers \
-    --enable-muxer=matroska,mov \
+    --enable-muxer=flac,ipod,matroska,mov \
     --disable-parsers \
     --enable-parser=bmp,flac,h264,hevc,jpeg2000,mjpeg,png,webp \
     --disable-filters \
