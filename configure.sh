@@ -16,4 +16,6 @@ cd ffmpeg
     --enable-protocol=concat,concatf,file,ftp,hls,http,https,pipe,tls \
     --enable-gmp \
     --enable-gnutls \
+    --pkg-config-flags=--static \
+    --extra-ldflags=-static \
     "--prefix=$now"
