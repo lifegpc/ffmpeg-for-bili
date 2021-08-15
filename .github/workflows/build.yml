@@ -45,6 +45,7 @@ jobs:
             p7zip
             mingw64/mingw-w64-x86_64-gcc
             mingw64/mingw-w64-x86_64-diffutils
+            mingw64/mingw-w64-x86_64-nasm
             mingw64/mingw-w64-x86_64-pkg-config
       
       - name: Install packages
